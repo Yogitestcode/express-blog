@@ -1,6 +1,6 @@
 const express = require('express');
 const bodyParser = require('body-parser');
-const postRoutes = require('./routes/postRoutes');
+const postRoutes = require('./routes/postRoutes'); // Ensure this path is correct
 
 const app = express();
 const PORT = process.env.PORT || 3000;

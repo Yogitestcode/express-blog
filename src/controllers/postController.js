@@ -1,4 +1,3 @@
-// src/controllers/postController.js
 const db = require('../config/firebaseAdmin');
 
 const getPosts = async (req, res) => {

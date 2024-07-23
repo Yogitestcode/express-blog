@@ -1,4 +1,3 @@
-// src/routes/postRoutes.js
 const express = require('express');
 const { getPosts, addPost } = require('../controllers/postController');
 const router = express.Router();
